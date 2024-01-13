@@ -63,18 +63,6 @@ def welcome():
 
 # app.run(host='localhost', port=80)
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-p", "--port", type=int, default=8080)
-    args = parser.parse_args()
-
-    start_server(welcome, port=args.port)
-
-
-
-
-
-
 
 
 
